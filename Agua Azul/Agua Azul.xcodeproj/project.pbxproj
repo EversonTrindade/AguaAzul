@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405676AF1AAA8F550078EFB1 /* PAA.png in Resources */ = {isa = PBXBuildFile; fileRef = 405676AE1AAA8F550078EFB1 /* PAA.png */; };
+		405787CC1A48CD110078827C /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 405787CB1A48CD110078827C /* location.png */; };
+		405787D31A48DAB50078827C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 405787D21A48DAB50078827C /* libsqlite3.dylib */; };
+		405787D91A48DD410078827C /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 405787D81A48DD410078827C /* DataBase.m */; };
+		4061EB5F1A48B3BB00FBD506 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4061EB5E1A48B3BB00FBD506 /* MapKit.framework */; };
+		406D586C1A6D856D0058B195 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D586B1A6D856C0058B195 /* SystemConfiguration.framework */; };
+		406D586F1A6D868F0058B195 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D586E1A6D868F0058B195 /* Reachability.m */; };
+		406D58751A7086140058B195 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D58741A7086140058B195 /* CustomAnnotation.m */; };
+		40765DBE1A71D92E00E10C58 /* driving.png in Resources */ = {isa = PBXBuildFile; fileRef = 40765DBD1A71D92E00E10C58 /* driving.png */; };
+		40765DC11A71EC9D00E10C58 /* DetalhesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40765DC01A71EC9D00E10C58 /* DetalhesViewController.m */; };
+		40A8ED5C1A670067003DD273 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A8ED5B1A670067003DD273 /* CoreLocation.framework */; };
+		40D27E6E1A4DA4530074CBFE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D27E6D1A4DA4530074CBFE /* logo.png */; };
+		40FB0AE41A3BDCA800EBC343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FB0AE31A3BDCA800EBC343 /* main.m */; };
+		40FB0AE71A3BDCA800EBC343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FB0AE61A3BDCA800EBC343 /* AppDelegate.m */; };
+		40FB0AEA1A3BDCA800EBC343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FB0AE91A3BDCA800EBC343 /* ViewController.m */; };
+		40FB0AED1A3BDCA800EBC343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FB0AEB1A3BDCA800EBC343 /* Main.storyboard */; };
+		40FB0AEF1A3BDCA800EBC343 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FB0AEE1A3BDCA800EBC343 /* Images.xcassets */; };
+		40FB0AF21A3BDCA800EBC343 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FB0AF01A3BDCA800EBC343 /* LaunchScreen.xib */; };
+		40FB0AFE1A3BDCA800EBC343 /* Agua_AzulTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FB0AFD1A3BDCA800EBC343 /* Agua_AzulTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40FB0AF81A3BDCA800EBC343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40FB0AD61A3BDCA800EBC343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40FB0ADD1A3BDCA800EBC343;
+			remoteInfo = "Agua Azul";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		405676AE1AAA8F550078EFB1 /* PAA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PAA.png; sourceTree = "<group>"; };
+		405787CB1A48CD110078827C /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		405787D21A48DAB50078827C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		405787D71A48DD410078827C /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		405787D81A48DD410078827C /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		4061EB5E1A48B3BB00FBD506 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		406D586B1A6D856C0058B195 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		406D586D1A6D868F0058B195 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		406D586E1A6D868F0058B195 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		406D58731A7086140058B195 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		406D58741A7086140058B195 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		40765DBD1A71D92E00E10C58 /* driving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = driving.png; sourceTree = "<group>"; };
+		40765DBF1A71EC9D00E10C58 /* DetalhesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalhesViewController.h; sourceTree = "<group>"; };
+		40765DC01A71EC9D00E10C58 /* DetalhesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalhesViewController.m; sourceTree = "<group>"; };
+		40A8ED5B1A670067003DD273 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		40D27E6D1A4DA4530074CBFE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		40FB0ADE1A3BDCA800EBC343 /* Agua Azul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agua Azul.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FB0AE21A3BDCA800EBC343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FB0AE31A3BDCA800EBC343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40FB0AE51A3BDCA800EBC343 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40FB0AE61A3BDCA800EBC343 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40FB0AE81A3BDCA800EBC343 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40FB0AE91A3BDCA800EBC343 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40FB0AEC1A3BDCA800EBC343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40FB0AEE1A3BDCA800EBC343 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40FB0AF11A3BDCA800EBC343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40FB0AF71A3BDCA800EBC343 /* Agua AzulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agua AzulTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FB0AFC1A3BDCA800EBC343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FB0AFD1A3BDCA800EBC343 /* Agua_AzulTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Agua_AzulTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40FB0ADB1A3BDCA800EBC343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D586C1A6D856D0058B195 /* SystemConfiguration.framework in Frameworks */,
+				40A8ED5C1A670067003DD273 /* CoreLocation.framework in Frameworks */,
+				405787D31A48DAB50078827C /* libsqlite3.dylib in Frameworks */,
+				4061EB5F1A48B3BB00FBD506 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB0AF41A3BDCA800EBC343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40615C431A4898160030E33D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40FB0AE81A3BDCA800EBC343 /* ViewController.h */,
+				40FB0AE91A3BDCA800EBC343 /* ViewController.m */,
+				406D58731A7086140058B195 /* CustomAnnotation.h */,
+				406D58741A7086140058B195 /* CustomAnnotation.m */,
+				40765DBF1A71EC9D00E10C58 /* DetalhesViewController.h */,
+				40765DC01A71EC9D00E10C58 /* DetalhesViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		40615C441A4898220030E33D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40FB0AEB1A3BDCA800EBC343 /* Main.storyboard */,
+				40FB0AF01A3BDCA800EBC343 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		40615C451A48982F0030E33D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				405787D71A48DD410078827C /* DataBase.h */,
+				405787D81A48DD410078827C /* DataBase.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		40615C461A489EDA0030E33D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406D586B1A6D856C0058B195 /* SystemConfiguration.framework */,
+				40A8ED5B1A670067003DD273 /* CoreLocation.framework */,
+				405787D21A48DAB50078827C /* libsqlite3.dylib */,
+				4061EB5E1A48B3BB00FBD506 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = "Agua Azul";
+			sourceTree = "<group>";
+		};
+		4061EB601A48C77D00FBD506 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				405676AE1AAA8F550078EFB1 /* PAA.png */,
+				40765DBD1A71D92E00E10C58 /* driving.png */,
+				405787CB1A48CD110078827C /* location.png */,
+				40D27E6D1A4DA4530074CBFE /* logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		40FB0AD51A3BDCA800EBC343 = {
+			isa = PBXGroup;
+			children = (
+				40FB0AE01A3BDCA800EBC343 /* Agua Azul */,
+				40FB0AFA1A3BDCA800EBC343 /* Agua AzulTests */,
+				40FB0ADF1A3BDCA800EBC343 /* Products */,
+				40615C461A489EDA0030E33D /* Frameworks */,
+				4061EB601A48C77D00FBD506 /* Images */,
+			);
+			sourceTree = "<group>";
+		};
+		40FB0ADF1A3BDCA800EBC343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40FB0ADE1A3BDCA800EBC343 /* Agua Azul.app */,
+				40FB0AF71A3BDCA800EBC343 /* Agua AzulTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40FB0AE01A3BDCA800EBC343 /* Agua Azul */ = {
+			isa = PBXGroup;
+			children = (
+				40FB0AE51A3BDCA800EBC343 /* AppDelegate.h */,
+				40FB0AE61A3BDCA800EBC343 /* AppDelegate.m */,
+				40FB0AEE1A3BDCA800EBC343 /* Images.xcassets */,
+				40615C451A48982F0030E33D /* Model */,
+				40615C441A4898220030E33D /* View */,
+				40615C431A4898160030E33D /* Controller */,
+				40FB0AE11A3BDCA800EBC343 /* Supporting Files */,
+			);
+			path = "Agua Azul";
+			sourceTree = "<group>";
+		};
+		40FB0AE11A3BDCA800EBC343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				406D586D1A6D868F0058B195 /* Reachability.h */,
+				406D586E1A6D868F0058B195 /* Reachability.m */,
+				40FB0AE21A3BDCA800EBC343 /* Info.plist */,
+				40FB0AE31A3BDCA800EBC343 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40FB0AFA1A3BDCA800EBC343 /* Agua AzulTests */ = {
+			isa = PBXGroup;
+			children = (
+				40FB0AFD1A3BDCA800EBC343 /* Agua_AzulTests.m */,
+				40FB0AFB1A3BDCA800EBC343 /* Supporting Files */,
+			);
+			path = "Agua AzulTests";
+			sourceTree = "<group>";
+		};
+		40FB0AFB1A3BDCA800EBC343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FB0AFC1A3BDCA800EBC343 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40FB0ADD1A3BDCA800EBC343 /* Agua Azul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FB0B011A3BDCA800EBC343 /* Build configuration list for PBXNativeTarget "Agua Azul" */;
+			buildPhases = (
+				40FB0ADA1A3BDCA800EBC343 /* Sources */,
+				40FB0ADB1A3BDCA800EBC343 /* Frameworks */,
+				40FB0ADC1A3BDCA800EBC343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agua Azul";
+			productName = "Agua Azul";
+			productReference = 40FB0ADE1A3BDCA800EBC343 /* Agua Azul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40FB0AF61A3BDCA800EBC343 /* Agua AzulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FB0B041A3BDCA800EBC343 /* Build configuration list for PBXNativeTarget "Agua AzulTests" */;
+			buildPhases = (
+				40FB0AF31A3BDCA800EBC343 /* Sources */,
+				40FB0AF41A3BDCA800EBC343 /* Frameworks */,
+				40FB0AF51A3BDCA800EBC343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40FB0AF91A3BDCA800EBC343 /* PBXTargetDependency */,
+			);
+			name = "Agua AzulTests";
+			productName = "Agua AzulTests";
+			productReference = 40FB0AF71A3BDCA800EBC343 /* Agua AzulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40FB0AD61A3BDCA800EBC343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = TADS;
+				TargetAttributes = {
+					40FB0ADD1A3BDCA800EBC343 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7VCX4S5WBY;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					40FB0AF61A3BDCA800EBC343 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 40FB0ADD1A3BDCA800EBC343;
+					};
+				};
+			};
+			buildConfigurationList = 40FB0AD91A3BDCA800EBC343 /* Build configuration list for PBXProject "Agua Azul" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40FB0AD51A3BDCA800EBC343;
+			productRefGroup = 40FB0ADF1A3BDCA800EBC343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40FB0ADD1A3BDCA800EBC343 /* Agua Azul */,
+				40FB0AF61A3BDCA800EBC343 /* Agua AzulTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40FB0ADC1A3BDCA800EBC343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40765DBE1A71D92E00E10C58 /* driving.png in Resources */,
+				405787CC1A48CD110078827C /* location.png in Resources */,
+				40D27E6E1A4DA4530074CBFE /* logo.png in Resources */,
+				40FB0AED1A3BDCA800EBC343 /* Main.storyboard in Resources */,
+				40FB0AF21A3BDCA800EBC343 /* LaunchScreen.xib in Resources */,
+				405676AF1AAA8F550078EFB1 /* PAA.png in Resources */,
+				40FB0AEF1A3BDCA800EBC343 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB0AF51A3BDCA800EBC343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40FB0ADA1A3BDCA800EBC343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D58751A7086140058B195 /* CustomAnnotation.m in Sources */,
+				40FB0AEA1A3BDCA800EBC343 /* ViewController.m in Sources */,
+				406D586F1A6D868F0058B195 /* Reachability.m in Sources */,
+				40FB0AE71A3BDCA800EBC343 /* AppDelegate.m in Sources */,
+				405787D91A48DD410078827C /* DataBase.m in Sources */,
+				40FB0AE41A3BDCA800EBC343 /* main.m in Sources */,
+				40765DC11A71EC9D00E10C58 /* DetalhesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB0AF31A3BDCA800EBC343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FB0AFE1A3BDCA800EBC343 /* Agua_AzulTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40FB0AF91A3BDCA800EBC343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40FB0ADD1A3BDCA800EBC343 /* Agua Azul */;
+			targetProxy = 40FB0AF81A3BDCA800EBC343 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40FB0AEB1A3BDCA800EBC343 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FB0AEC1A3BDCA800EBC343 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40FB0AF01A3BDCA800EBC343 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FB0AF11A3BDCA800EBC343 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40FB0AFF1A3BDCA800EBC343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40FB0B001A3BDCA800EBC343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40FB0B021A3BDCA800EBC343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Agua Azul/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		40FB0B031A3BDCA800EBC343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Agua Azul/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		40FB0B051A3BDCA800EBC343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Agua AzulTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agua Azul.app/Agua Azul";
+			};
+			name = Debug;
+		};
+		40FB0B061A3BDCA800EBC343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Agua AzulTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agua Azul.app/Agua Azul";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40FB0AD91A3BDCA800EBC343 /* Build configuration list for PBXProject "Agua Azul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FB0AFF1A3BDCA800EBC343 /* Debug */,
+				40FB0B001A3BDCA800EBC343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FB0B011A3BDCA800EBC343 /* Build configuration list for PBXNativeTarget "Agua Azul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FB0B021A3BDCA800EBC343 /* Debug */,
+				40FB0B031A3BDCA800EBC343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FB0B041A3BDCA800EBC343 /* Build configuration list for PBXNativeTarget "Agua AzulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FB0B051A3BDCA800EBC343 /* Debug */,
+				40FB0B061A3BDCA800EBC343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40FB0AD61A3BDCA800EBC343 /* Project object */;
+}
